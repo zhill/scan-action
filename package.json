@@ -1,6 +1,6 @@
 {
   "name": "anchore-scan-action",
-  "version": "1.0.2",
+  "version": "1.0.10",
   "description": "Anchore image scan github action",
   "main": "index.js",
   "directories": {
@@ -28,13 +28,13 @@
   },
   "homepage": "https://github.com/anchore/anchore-scan-action#readme",
   "dependencies": {
-    "@actions/core": "^1.2.4",
+    "@actions/core": "^1.2.6",
     "@actions/exec": "^1.0.4",
-    "@actions/tool-cache": "^1.5.5",
-    "lodash": "^4.17.19"
+    "@actions/tool-cache": "^1.6.0",
+    "lodash": "^4.17.20"
   },
   "devDependencies": {
-    "@zeit/ncc": "^0.20.5",
+    "@vercel/ncc": "^0.24.1",
     "eslint": "^6.8.0",
     "husky": "^3.1.0",
     "jest": "^25.5.4"
